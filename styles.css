@@ -107,7 +107,13 @@ body {
     text-align: left;
     justify-content: center;
 }
-
+.page2-s {
+    position: absolute;
+    top: 10%;
+    left: 52%;
+    text-align: left;
+    justify-content: center; /* just a copy */
+}
 .hidden {
     color: rgba(0, 0, 0, 0);
     user-select: none;
@@ -377,7 +383,7 @@ body {
     mix-blend-mode: multiply;
     padding: 0px;
     position: absolute;
-    top: -0%;
+    top: 25%;
 }
 
 .end-wrapper {
