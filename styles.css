@@ -365,7 +365,9 @@ body {
 .end-outer {
     display: inline-block;
     background: black;
-    mix-blend-mode: multiply; /* makes black transparent to the page */
+    mix-blend-mode: multiply;
+    padding: 0px;
+
 }
 
 .end-wrapper {
@@ -373,25 +375,26 @@ body {
     width: 400px;
     height: 100px;
     background-color: black;
+    padding: 0px;
+    position: absolute;
+    top: -2vh;
 }
 
-.end-vid,
-.end-text {
+
+.end-text, .end-vid {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     margin: 0;
+    padding: 0px;
 }
 
-.end-vid {
-    object-fit: cover;
-}
 
 .end-text {
     font-family: mojangles-b;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     background: white;       /* white background is the mask */
     mix-blend-mode: screen;  /* on the TEXT, not a container */
     display: flex;
