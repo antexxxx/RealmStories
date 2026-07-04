@@ -51,6 +51,8 @@ pic2.addEventListener("mouseleave", () => {
     pic2.src = "assets/button/fityma/pic2.png"
 })
 
+//-----------------------------------------------//
+
 const pic3 = document.getElementById("pic3")
 
 pic3.addEventListener("mouseenter", () => {
@@ -59,3 +61,16 @@ pic3.addEventListener("mouseenter", () => {
 pic3.addEventListener("mouseleave", () => {
     pic3.src = "assets/button/fityma/pic3.png"
 })
+
+//-----------------------------------------------//
+
+const pic4 = document.getElementById("pic4")
+
+pic4.addEventListener("mouseenter", () => {
+    pic4.src = "assets/button/fityma/pic4-hgh.png"
+})
+pic4.addEventListener("mouseleave", () => {
+    pic4.src = "assets/button/fityma/pic4.png"
+})
+
+
