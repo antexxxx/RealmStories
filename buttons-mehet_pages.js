@@ -50,3 +50,12 @@ pic2.addEventListener("mouseenter", () => {
 pic2.addEventListener("mouseleave", () => {
     pic2.src = "assets/button/fityma/pic2.png"
 })
+
+const pic3 = document.getElementById("pic3")
+
+pic3.addEventListener("mouseenter", () => {
+    pic3.src = "assets/button/fityma/pic3-hgh.png"
+})
+pic3.addEventListener("mouseleave", () => {
+    pic3.src = "assets/button/fityma/pic3.png"
+})
